@@ -7,7 +7,6 @@
 
 #start Aplication
 #nohup python3 app.py &
-#!/bin/bash
 set -e
 
 # Pull the Docker image from Docker Hub
