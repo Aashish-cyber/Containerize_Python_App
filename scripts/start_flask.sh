@@ -1,4 +1,4 @@
-@#!/bin/bash
+#!/bin/bash
 #Activate the virtual environemt
 #source /home/ubuntu/my-python-app/venv/bin/activate
 
