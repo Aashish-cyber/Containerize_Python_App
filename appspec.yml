@@ -2,15 +2,15 @@ version: 0.0
 os: linux
 files: 
   - source: /
-    destination: /home/ec2-user/flaskapp
+    destination: /home/ubuntu/my-python-app
 
 
 hooks:
   BeforeInstall:
     - location: scripts/Install_dependensies.sh
       timeout: 300
-      runas: ec2-user
+      runas: ubuntu
   ApplicationStart:
     - location: scripts/start_flask.sh
       timeout: 300
-      runas: ec2-user
+      runas: ubuntu
