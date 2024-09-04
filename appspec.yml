@@ -8,9 +8,6 @@ hooks:
     - location: scripts/cleanup.sh
       timeout: 300
       runas: ubuntu
-    - location: scripts/Install_dependensies.sh
-      timeout: 300
-      runas: ubuntu
   ApplicationStart:
     - location: scripts/start_flask.sh
       timeout: 300
