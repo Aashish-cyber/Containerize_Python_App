@@ -5,9 +5,6 @@ files:
     destination: /home/ubuntu/my-python-app
 hooks:
   BeforeInstall:
-    - location: scripts/cleanup.sh
-      timeout: 300
-      runas: ubuntu
     - location: scripts/Install_dependensies.sh
       timeout: 300
       runas: ubuntu
