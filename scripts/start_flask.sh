@@ -8,7 +8,6 @@
 #start Aplication
 #nohup python3 app.py &
 set -e
-
 # Pull the Docker image from Docker Hub
 docker pull aashishrana8077/my-python-app:latest
 # Run the Docker image as a container
