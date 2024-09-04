@@ -10,6 +10,6 @@ if [ -f /home/ubuntu/my-python-app/scripts/start_flask.sh ]; then
 fi
 
 # Remove specific files that might conflict
-if [ -f /home/ubuntu/my-python-app/requirements.txt ]; then
-    rm /home/ubuntu/my-python-app/requirements.txt
-fi
+#if [ -f /home/ubuntu/my-python-app/requirements.txt ]; then
+    #rm /home/ubuntu/my-python-app/requirements.txt
+#fi
